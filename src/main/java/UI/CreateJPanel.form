@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="lblTitle" alignment="1" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="186" max="-2" attributes="0"/>
+                      <Component id="butSave" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="lblName" min="-2" pref="89" max="-2" attributes="0"/>
+                          <Component id="lblAddress" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                          <Component id="lblDob" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                          <Component id="lblNumber" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                          <Component id="lblFaxNumber" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                          <Component id="lblEmailAddress" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                          <Component id="lblSSN" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                          <Component id="lblAccountNum" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                          <Component id="lblLinkedInURL" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                          <Component id="lblIPAdd" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                          <Component id="lblImage" alignment="0" min="-2" pref="89" max="-2" attributes="0"/>
+                          <Component id="lblHealthBenficiaryNumber" alignment="0" pref="138" max="32767" attributes="0"/>
+                          <Component id="lblMedicalrRecordNumber" alignment="0" max="32767" attributes="0"/>
+                          <Component id="lblVehicalNum" alignment="0" min="-2" pref="105" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtHealthBenificiaryNum" min="-2" pref="321" max="-2" attributes="0"/>
+                                  <Component id="txtMedicalRecordNum" min="-2" pref="321" max="-2" attributes="0"/>
+                                  <Component id="txtAccountNumber" alignment="0" min="-2" pref="321" max="-2" attributes="0"/>
+                                  <Component id="txtVehicalNumber" alignment="0" min="-2" pref="321" max="-2" attributes="0"/>
+                                  <Component id="txtLinkedIn" alignment="0" min="-2" pref="321" max="-2" attributes="0"/>
+                                  <Component id="txtIPAddress" alignment="0" min="-2" pref="321" max="-2" attributes="0"/>
+                                  <Component id="txtDeviceIdentifier" alignment="0" min="-2" pref="321" max="-2" attributes="0"/>
+                                  <Component id="txtLisenceNumber" alignment="0" min="-2" pref="321" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="lblerrormedicalRecordNum" min="-2" pref="227" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                          <Component id="lblerrorHealthBenNum" pref="217" max="32767" attributes="0"/>
+                                          <Component id="lblErrorAccountNum" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                          <Component id="lblerrorLinkedIn" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="lblErrorVehNum" alignment="0" min="-2" pref="217" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="lblerrorIPaddress" max="32767" attributes="0"/>
+                                          <Group type="102" attributes="0">
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="lblErrorLisenceNumber" min="-2" pref="217" max="-2" attributes="0"/>
+                                                  <Component id="lblerrorDeviceManager" min="-2" pref="281" max="-2" attributes="0"/>
+                                              </Group>
+                                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="txtAddress" min="-2" pref="321" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Component id="txtFaxNum" min="-2" pref="321" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="lblErrorFaxNum" min="-2" pref="195" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="txtSSN" min="-2" pref="321" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="lblerrorSSN" min="-2" pref="216" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="txtName" min="-2" pref="321" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="lblEName" min="-2" pref="255" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="txtPhoneNumber" min="-2" pref="321" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="lblErrorPhoneNum" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="txtEmailAddress" min="-2" pref="321" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="lblerrMail" min="-2" pref="217" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="btnImage" min="-2" pref="112" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="lblPic" min="-2" pref="115" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="txtDob" alignment="0" min="-2" pref="321" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Component id="lblDeviceIdentifier" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                  <Component id="lblLisenceNumber" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblName" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="txtName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblEName" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblAddress" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="txtAddress" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lblDob" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="txtDob" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblNumber" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="txtPhoneNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblErrorPhoneNum" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblFaxNumber" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="txtFaxNum" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblErrorFaxNum" alignment="3" min="-2" pref="15" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblEmailAddress" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="txtEmailAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblerrMail" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblSSN" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="txtSSN" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblerrorSSN" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblMedicalrRecordNumber" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="txtMedicalRecordNum" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblerrormedicalRecordNum" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblHealthBenficiaryNumber" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="txtHealthBenificiaryNum" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblerrorHealthBenNum" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblAccountNum" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="txtAccountNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblErrorAccountNum" alignment="1" min="-2" pref="15" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblVehicalNum" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="txtVehicalNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblErrorVehNum" alignment="0" min="-2" pref="15" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblLinkedInURL" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="txtLinkedIn" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblerrorLinkedIn" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblIPAdd" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="txtIPAddress" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblerrorIPaddress" alignment="1" min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lblImage" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                      <Component id="btnImage" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="5" pref="5" max="-2" attributes="0"/>
+                      <Component id="lblPic" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblDeviceIdentifier" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="txtDeviceIdentifier" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblerrorDeviceManager" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lblLisenceNumber" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
+                  <Component id="txtLisenceNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lblErrorLisenceNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Component id="butSave" min="-2" pref="35" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="18" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="CREATE PROFILE"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblName">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="NAME:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAddress">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Address:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDob">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DOB:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PHONE NUMBER:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblFaxNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="FAX NUMBER:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEmailAddress">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="EMAIL ADDRESS:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblSSN">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SSN:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblMedicalrRecordNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="MED RECORD NUM:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblHealthBenficiaryNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="HEALTH BENIFICIARY NUM:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAccountNum">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ACCOUNT NUM:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblVehicalNum">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="VEHICAL NUMBER:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLinkedInURL">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="LINKEDIN:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblIPAdd">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="IP ADDRESS:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblImage">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="IMAGE:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtName">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNameActionPerformed"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtNameKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAddress">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtAddressActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtPhoneNumber">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtPhoneNumberActionPerformed"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtPhoneNumberKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtFaxNum">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtFaxNumActionPerformed"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtFaxNumKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtEmailAddress">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtEmailAddressActionPerformed"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtEmailAddressKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtSSN">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtSSNActionPerformed"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtSSNKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtMedicalRecordNum">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtMedicalRecordNumActionPerformed"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtMedicalRecordNumKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtHealthBenificiaryNum">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtHealthBenificiaryNumActionPerformed"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtHealthBenificiaryNumKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtAccountNumber">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtAccountNumberActionPerformed"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtAccountNumberKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtVehicalNumber">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtVehicalNumberActionPerformed"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtVehicalNumberKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtLinkedIn">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtLinkedInActionPerformed"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtLinkedInKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtIPAddress">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtIPAddressActionPerformed"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtIPAddressKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="butSave">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SAVE"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="butSaveActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblDeviceIdentifier">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="DEVICE IDENTIFIER:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtDeviceIdentifier">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtDeviceIdentifierActionPerformed"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtDeviceIdentifierKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLisenceNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="LISENECE NUMBER"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtLisenceNumber">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtLisenceNumberActionPerformed"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtLisenceNumberKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblEName">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="2"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblerrMail">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblErrorPhoneNum">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblErrorFaxNum">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblerrorSSN">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblerrormedicalRecordNum">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblerrorHealthBenNum">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblErrorAccountNum">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblErrorVehNum">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblerrorLinkedIn">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblerrorIPaddress">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblerrorDeviceManager">
+      <Properties>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="33" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="  "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblErrorLisenceNumber">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="  "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnImage">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Upload Image"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnImageActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblPic">
+    </Component>
+    <Component class="com.toedter.calendar.JDateChooser" name="txtDob">
+    </Component>
+  </SubComponents>
+</Form>
